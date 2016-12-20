@@ -1,16 +1,17 @@
-package day13;
+package day17;
 
 import java.awt.Point;
 
 public class Node {
 
 	public Point pos;
-	public int distance;
 	public boolean visited;
+	public String input;
 	
-	public Node(Point pos, int distance) {
+	public Node(Point pos, String input) {
 		this.pos = pos;
-		this.distance = distance;
 		this.visited = false;
+		this.input = input;
 	}
+	
 }
