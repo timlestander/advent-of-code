@@ -1,4 +1,4 @@
-package Day20;
+package day20;
 
 public class Range {
 
