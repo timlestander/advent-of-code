@@ -13,7 +13,7 @@ public class Day20 {
 	
 	ArrayList<Range> input = new ArrayList<Range>();
 	
-	public void  findLowestAllowedIP() throws IOException {
+	public void findLowestAllowedIP() throws IOException {
 		FileReader fr = new FileReader("src/day20/input.txt");
 		BufferedReader br = new BufferedReader(fr);
 		

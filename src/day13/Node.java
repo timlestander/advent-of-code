@@ -1,6 +1,7 @@
 package day13;
 
 import java.awt.Point;
+import java.util.ArrayList;
 
 public class Node {
 
@@ -13,4 +14,5 @@ public class Node {
 		this.distance = distance;
 		this.visited = false;
 	}
+
 }
